@@ -26,19 +26,17 @@ footer {
   font-weight: bold; }
 
 .footer {
+  padding-top: 30px;
   background: linear-gradient(90deg, rgba(243, 146, 36, 0.678), rgba(248, 248, 246, 0.993)); }
 
 .footer__ubicanos {
-  text-align: left;
-  font-size: 40px; }
+  text-align: left; }
 
 .footer__seguinos {
-  text-align: center;
-  font-size: 40px; }
+  text-align: center; }
 
 .footer__politicas {
-  text-align: right;
-  font-size: 40px; }
+  text-align: right; }
 
 body {
   background-image: url("../assets/images/fondo.jpg"); }
@@ -65,10 +63,6 @@ h1 {
   font-style: oblique;
   text-align: center;
   margin-left: 5px; }
-
-h3 {
-  font-weight: bold;
-  text-decoration: underline; }
 
 .tamaño-imagen-index {
   background-color: gray; }
