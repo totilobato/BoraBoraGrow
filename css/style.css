@@ -53,16 +53,22 @@ body {
 .color-tabla-ultencillos {
   background: linear-gradient(120deg, #d8d514, #aa850d); }
 
+section {
+  background-image: url("../assets/images/fondo.jpg"); }
+
 h1 {
   text-align: center;
   font-weight: bold; }
 
-.textoNosotros {
-  font-size: 30px;
-  font-weight: bold;
-  font-style: oblique;
+h2 {
   text-align: center;
-  margin-left: 5px; }
+  font-weight: 700; }
+
+h5 {
+  text-align: center; }
+
+h4 {
+  font-weight: normal; }
 
 .tamaño-imagen-index {
   background-color: gray; }
@@ -70,13 +76,6 @@ h1 {
 .tamaño_imagen_tierra {
   height: 500px;
   width: 400px; }
-
-.imagenKlasman {
-  height: 600px;
-  width: 800px; }
-
-.imagenFusaryum {
-  height: 300px; }
 
 .error-template {
   padding: 40px 15px;
@@ -88,3 +87,13 @@ h1 {
 
 .error-actions .btn {
   margin-right: 10px; }
+
+.posicionWhatsapp {
+  margin-left: 160px; }
+
+.posicionEnvio {
+  margin-right: 160px; }
+
+.posicionUbicacion {
+  padding-top: 15px;
+  padding-bottom: 15px; }
