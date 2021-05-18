@@ -71,6 +71,7 @@ h3 {
   text-decoration: underline; }
 
 .tamaño-imagen-index {
+  background-color: gray;
   height: 400px;
   width: 400px; }
 
