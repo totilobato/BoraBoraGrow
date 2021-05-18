@@ -1,0 +1,49 @@
+
+table {
+    transform: translate(380px);
+    border:2px solid black;
+    text-align: center;
+    padding: 15px;
+}
+footer {
+    background: linear-gradient(90deg, rgba(125, 18, 146, 0.678), rgb(196, 114, 21));
+}
+@media only screen and (max-width: 400px) {
+    body {
+    background-color:orange;
+    }
+}
+    .header {
+        background-color: white;
+    }
+    .header__logo {
+        border:solid 2px black;
+    }
+    .header__search {
+        background: linear-gradient(50deg, gray, white);
+    }
+    .header__titulo {
+        text-align: center;
+        font-weight: bold;
+    }
+    .footer {
+        background: linear-gradient(90deg, rgba(243, 146, 36, 0.678), rgba(248, 248, 246, 0.993));
+    }
+    .footer__ubicanos {
+        text-align:left;
+        font-size: 40px;
+    }
+    .footer__seguinos {
+        text-align: center;
+        font-size: 40px;
+    }
+    .footer__politicas {
+        text-align: right;
+        font-size: 40px;
+    }
+    @import "colores";
+    @import "tipografia";
+    @import "_tamanioimagenes";
+    .error-template {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }

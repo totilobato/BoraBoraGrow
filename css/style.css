@@ -1,0 +1,97 @@
+@charset "UTF-8";
+table {
+  transform: translate(380px);
+  border: 2px solid black;
+  text-align: center;
+  padding: 15px; }
+
+footer {
+  background: linear-gradient(90deg, rgba(125, 18, 146, 0.678), #c47215); }
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: orange; } }
+
+.header {
+  background-color: white; }
+
+.header__logo {
+  border: solid 2px black; }
+
+.header__search {
+  background: linear-gradient(50deg, gray, white); }
+
+.header__titulo {
+  text-align: center;
+  font-weight: bold; }
+
+.footer {
+  background: linear-gradient(90deg, rgba(243, 146, 36, 0.678), rgba(248, 248, 246, 0.993)); }
+
+.footer__ubicanos {
+  text-align: left;
+  font-size: 40px; }
+
+.footer__seguinos {
+  text-align: center;
+  font-size: 40px; }
+
+.footer__politicas {
+  text-align: right;
+  font-size: 40px; }
+
+body {
+  background-image: url("../assets/images/fondo.jpg"); }
+
+.color-tabla-ferti {
+  background: linear-gradient(120deg, #db991d, red); }
+
+.color-tabla-papel {
+  background: linear-gradient(120deg, #47f8a6, #1fa547); }
+
+.color-tabla-carpa {
+  background: linear-gradient(120deg, #464545, #aa9a9a); }
+
+.color-tabla-ultencillos {
+  background: linear-gradient(120deg, #d8d514, #aa850d); }
+
+h1 {
+  text-align: center;
+  font-weight: bold; }
+
+.textoNosotros {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: oblique;
+  text-align: center;
+  margin-left: 5px; }
+
+h3 {
+  font-weight: bold;
+  text-decoration: underline; }
+
+.tamaño-imagen-index {
+  height: 400px;
+  width: 400px; }
+
+.tamaño_imagen_tierra {
+  height: 500px;
+  width: 400px; }
+
+.imagenKlasman {
+  height: 600px;
+  width: 800px; }
+
+.imagenFusaryum {
+  height: 300px; }
+
+.error-template {
+  padding: 40px 15px;
+  text-align: center; }
+
+.error-actions {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.error-actions .btn {
+  margin-right: 10px; }
