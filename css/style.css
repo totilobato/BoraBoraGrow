@@ -85,6 +85,9 @@ h4 {
   height: 500px;
   width: 400px; }
 
+.animacionImagen {
+  transform: scale(2, 1); }
+
 .error-template {
   padding: 40px 15px;
   text-align: center; }
