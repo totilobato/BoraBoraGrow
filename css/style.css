@@ -1,6 +1,5 @@
 @charset "UTF-8";
 table {
-  transform: translate(380px);
   border: 2px solid black;
   text-align: center;
   margin: left 100%; }
@@ -26,7 +25,8 @@ footer {
   font-weight: bold; }
 
 .footer {
-  padding-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: linear-gradient(90deg, rgba(243, 146, 36, 0.678), rgba(248, 248, 246, 0.993)); }
 
 .footer__ubicanos {
@@ -88,6 +88,10 @@ h4 {
 .animacionImagen {
   transform: scale(2, 1); }
 
+.tamanioTutorial {
+  width: 100%;
+  padding-top: 15px; }
+
 .error-template {
   padding: 40px 15px;
   text-align: center; }
@@ -108,3 +112,6 @@ h4 {
 .posicionUbicacion {
   padding-top: 15px;
   padding-bottom: 15px; }
+
+.posicionTablaCannabis {
+  width: 100%; }
