@@ -78,6 +78,11 @@ h4 {
   color: black;
   margin-left: 1px; }
 
+.footerGithub {
+  color: black;
+  text-decoration: none;
+  text-align: right; }
+
 .tamaño-imagen-index {
   background-color: gray; }
 
