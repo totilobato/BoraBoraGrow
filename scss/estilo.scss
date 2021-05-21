@@ -1,5 +1,6 @@
 
 table {
+    width: 40%;
     border:2px solid black;
     text-align: center;
     margin: left 100%;;
@@ -57,4 +58,7 @@ footer {
 }
 .posicionTablaCannabis {
     width:100%;
+}
+.displayProductos {
+    display:inline;
 }
