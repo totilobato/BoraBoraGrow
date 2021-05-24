@@ -6,7 +6,8 @@ table {
   margin: left 100%; }
 
 footer {
-  background: linear-gradient(90deg, rgba(125, 18, 146, 0.678), #c47215); }
+  background-color: orangered;
+  color: white; }
 
 @media only screen and (max-width: 400px) {
   body {
@@ -18,17 +19,13 @@ footer {
 .header__logo {
   border: solid 2px black; }
 
-.header__search {
-  background: linear-gradient(50deg, gray, white); }
-
 .header__titulo {
   text-align: center;
   font-weight: bold; }
 
 .footer {
   padding-top: 20px;
-  padding-bottom: 20px;
-  background: linear-gradient(90deg, rgba(243, 146, 36, 0.678), rgba(248, 248, 246, 0.993)); }
+  padding-bottom: 20px; }
 
 .footer__ubicanos {
   text-align: left; }
@@ -37,7 +34,8 @@ footer {
   text-align: center; }
 
 .footer__politicas {
-  text-align: right; }
+  text-align: right;
+  color: white; }
 
 body {
   background-color: white; }
@@ -80,7 +78,7 @@ h4 {
   margin-left: 1px; }
 
 .footerGithub {
-  color: black;
+  color: white;
   text-decoration: none;
   text-align: right; }
 
@@ -133,4 +131,7 @@ h4 {
 
 .decoracionLinks {
   text-decoration: none;
-  color: black; }
+  color: white; }
+
+.imagenes-plagas {
+  padding: 30px; }

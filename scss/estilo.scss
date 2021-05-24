@@ -6,7 +6,8 @@ table {
     margin: left 100%;;
 }
 footer {
-    background: linear-gradient(90deg, rgba(125, 18, 146, 0.678), rgb(196, 114, 21));
+    background-color:orangered;
+    color:white;
 }
 @media only screen and (max-width: 400px) {
     body {
@@ -19,9 +20,6 @@ footer {
     .header__logo {
         border:solid 2px black;
     }
-    .header__search {
-        background: linear-gradient(50deg, gray, white);
-    }
     .header__titulo {
         text-align: center;
         font-weight: bold;
@@ -29,7 +27,6 @@ footer {
     .footer {
         padding-top:20px;
         padding-bottom:20px;
-        background: linear-gradient(90deg, rgba(243, 146, 36, 0.678), rgba(248, 248, 246, 0.993));
     }
     .footer__ubicanos {
         text-align:left;
@@ -39,6 +36,7 @@ footer {
     }
     .footer__politicas {
         text-align: right;
+        color:white;
     }
     @import "colores";
     @import "tipografia";
@@ -70,5 +68,8 @@ footer {
 }
 .decoracionLinks {
     text-decoration:none;
-    color:black;
+    color:white;
+}
+.imagenes-plagas {
+    padding:30px;
 }
