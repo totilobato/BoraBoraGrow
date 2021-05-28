@@ -79,6 +79,9 @@ h4 {
   text-decoration: none;
   text-align: right; }
 
+.negritaTextos {
+  font-weight: bold; }
+
 .tamaño-imagen-index {
   background-color: gray; }
 
