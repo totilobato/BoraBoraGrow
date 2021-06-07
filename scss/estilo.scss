@@ -6,12 +6,12 @@ table {
     margin: left 100%;;
 }
 footer {
-    background-color:orangered;
+    background-color:rgb(232, 116, 24);
     color:white;
 }
 @media only screen and (max-width: 400px) {
     body {
-    background-color:orange;
+    background-color:rgb(232, 116, 24);
     }
 }
     .header {
@@ -80,4 +80,7 @@ footer {
 }
 .marginSection {
     margin-bottom:20px;
+}
+.logoIndex {
+    margin-left:500px;
 }
