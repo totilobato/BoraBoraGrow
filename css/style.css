@@ -44,6 +44,10 @@ body {
   color: white;
   background-color: #e87418; }
 
+.colorContacto {
+  background-color: #e87418;
+  padding-top: 0%; }
+
 h1 {
   text-align: center;
   font-weight: bold; }
