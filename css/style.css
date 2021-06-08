@@ -11,7 +11,10 @@ footer {
 
 @media only screen and (max-width: 400px) {
   body {
-    background-color: #e87418; } }
+    background-color: #e87418; }
+  .logoIndex {
+    display: block;
+    margin: auto; } }
 
 .header {
   background-color: white; }
@@ -37,17 +40,9 @@ footer {
 body {
   background-color: white; }
 
-.color-tabla-ferti {
-  background: linear-gradient(120deg, #db991d, red); }
-
-.color-tabla-papel {
-  background: linear-gradient(120deg, #47f8a6, #1fa547); }
-
-.color-tabla-carpa {
-  background: linear-gradient(120deg, #e485ec, #f0ea98); }
-
-.color-tabla-ultencillos {
-  background: linear-gradient(120deg, #d8d514, #aa850d); }
+.btn {
+  color: white;
+  background-color: #e87418; }
 
 h1 {
   text-align: center;
@@ -81,9 +76,6 @@ h4 {
 
 .negritaTextos {
   font-weight: bold; }
-
-.tamaño-imagen-index {
-  background-color: gray; }
 
 .tamaño_imagen_tierra {
   height: 500px;
