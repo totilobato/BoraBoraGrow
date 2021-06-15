@@ -57,7 +57,8 @@ h2 {
   font-weight: 700; }
 
 h5 {
-  text-align: center; }
+  text-align: center;
+  font-weight: 0; }
 
 h4 {
   font-weight: normal; }
